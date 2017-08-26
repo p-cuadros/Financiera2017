@@ -18,7 +18,7 @@ namespace Financiera.Distribucion.API.Controllers
         // GET: api/Prueba/5
         public string Get(int id)
         {
-            return "value";
+            return id.ToString();
         }
 
         // POST: api/Prueba
